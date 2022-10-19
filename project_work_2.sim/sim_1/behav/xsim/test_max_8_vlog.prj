@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_work_2.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../project_work_2.srcs/sources_1/new/MAX_8.v" \
+"../../../../project_work_2.srcs/sim_1/new/test_max_8.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
